@@ -1,2 +1,3 @@
 # ip-black-list
-ip black list service using redis and Dubbo
+ip-black-list provide fast ip black list service, using Redis, Dubbo and Spring Boot Edit
+
