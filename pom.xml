@@ -15,7 +15,19 @@
         <module>ip-black-list-service</module>
         <module>ip-black-list-admin</module>
         <module>ip-black-list-schedule</module>
+        <module>ip-black-list-provider-api</module>
+        <module>ip-black-list-receiver-api</module>
+        <module>ip-black-list-service-api</module>
     </modules>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>1.5.1.RELEASE</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 </project>
