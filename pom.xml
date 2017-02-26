@@ -18,6 +18,7 @@
         <module>ip-black-list-provider-api</module>
         <module>ip-black-list-receiver-api</module>
         <module>ip-black-list-service-api</module>
+        <module>ip-black-list-sender</module>
     </modules>
 
     <dependencyManagement>
