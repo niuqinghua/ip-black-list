@@ -9,7 +9,7 @@ public class ApplicationDto implements Serializable {
 
     private String userId;
 
-    private String app;
+    private String appId;
 
     private String token;
 
@@ -21,12 +21,12 @@ public class ApplicationDto implements Serializable {
         this.userId = userId;
     }
 
-    public String getApp() {
-        return app;
+    public String getAppId() {
+        return appId;
     }
 
-    public void setApp(String app) {
-        this.app = app;
+    public void setAppId(String appId) {
+        this.appId = appId;
     }
 
     public String getToken() {
