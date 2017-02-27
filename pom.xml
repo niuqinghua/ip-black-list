@@ -11,14 +11,10 @@
 
     <modules>
         <module>ip-black-list-provider</module>
-        <module>ip-black-list-receiver</module>
         <module>ip-black-list-service</module>
         <module>ip-black-list-admin</module>
-        <module>ip-black-list-schedule</module>
         <module>ip-black-list-provider-api</module>
-        <module>ip-black-list-receiver-api</module>
         <module>ip-black-list-service-api</module>
-        <module>ip-black-list-sender</module>
     </modules>
 
     <dependencyManagement>
