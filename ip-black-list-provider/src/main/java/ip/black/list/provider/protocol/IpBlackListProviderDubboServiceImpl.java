@@ -1,7 +1,7 @@
 package ip.black.list.provider.protocol;
 
 import ip.black.list.provider.api.dto.IpBlackListCheckDto;
-import ip.black.list.provider.api.protocol.IpBlackListDubboService;
+import ip.black.list.provider.api.protocol.IpBlackListProviderDubboService;
 import ip.black.list.provider.domain.Application;
 import ip.black.list.provider.service.IpBlackListService;
 import org.dozer.DozerBeanMapper;
@@ -11,8 +11,8 @@ import org.springframework.stereotype.Service;
 /**
  * Created by niuqinghua on 2017/2/27.
  */
-@Service("ipBlackListDubboService")
-public class IpBlackListDubboServiceImpl implements IpBlackListDubboService {
+@Service("ipBlackListProviderDubboService")
+public class IpBlackListProviderDubboServiceImpl implements IpBlackListProviderDubboService {
 
     @Autowired
     private IpBlackListService ipBlackListService;

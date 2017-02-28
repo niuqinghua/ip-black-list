@@ -13,8 +13,8 @@
 
     <dubbo:protocol name="dubbo" port="${dubbo.application.port}" />
 
-    <dubbo:service interface="ip.black.list.service.api.protocol.ApplicationDubboService"
-                   ref="applicationDubboService" group="${dubbo.registry.group}" />
+    <!--<dubbo:service interface="ip.black.list.service.api.protocol.ApplicationDubboService"-->
+                   <!--ref="applicationDubboService" group="${dubbo.registry.group}" />-->
 
     <dubbo:service interface="ip.black.list.service.api.protocol.IpBlackListDubboService"
                    ref="ipBlackListDubboService" group="${dubbo.registry.group}" />
